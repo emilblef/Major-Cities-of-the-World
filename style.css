@@ -1,9 +1,10 @@
 html {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background: url('bgc.jpg');
+  background: url('https://cdn.stocksnap.io/img-thumbs/960w/WE5D3I8KEA.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -16,6 +17,7 @@ html {
 *,
 *:before,
 *:after {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -53,6 +55,7 @@ input.search {
   z-index: 2;
   border-radius: 7px;
   font-size: 40px;
+  -webkit-box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5), inset 0 0 3px rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5), inset 0 0 3px rgba(0, 0, 0, 0.7);
 }
 
@@ -66,12 +69,19 @@ input.search {
   background: rgb(240, 240, 240);
   list-style: none;
   border-bottom: 1px solid #D8D8D8;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
   margin: 0;
   padding: 20px;
   font-size: 15px;
+  -webkit-transition: background 0.2s;
+  -o-transition: background 0.2s;
   transition: background 0.2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   text-transform: capitalize;
 }
