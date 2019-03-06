@@ -1,4 +1,4 @@
-html {
+body {
   background-image: url('bgc.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -7,7 +7,6 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   min-height: 100vh;
-  height: 100%;
   width: 100%;
   font-weight: 200;
   overflow-y: scroll;
